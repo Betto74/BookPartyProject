@@ -1,0 +1,48 @@
+
+body{
+    margin-top: 7rem;
+}
+
+.material-symbols-outlined.icono{
+    color: gray;
+    margin: 0;
+    font-size: 200%;
+  font-variation-settings:
+  'FILL' 100,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    margin-bottom: 5rem;   
+}
+
+.logo{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url("../img/logo.png");
+    background-size: cover;
+}
+
+.hambtn{
+    border-radius: 10rem;
+    background-color: white;
+    width: 5rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.dropdown{
+    background: linear-gradient(to bottom, rgb(125, 229, 235), rgb(184, 233, 236));
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
